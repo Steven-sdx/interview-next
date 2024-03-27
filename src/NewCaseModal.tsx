@@ -10,7 +10,7 @@ import {
   TextField,
 } from '@mui/material';
 
-const NewCaseModal: React.FC = () => {
+const NewCaseModal: React.FC<{}> = () => {
   const [open, setOpen] = useState(false);
   const [patientName, setPatientName] = useState('');
   const [visitDetails, setVisitDetails] = useState('');
