@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import { Grid } from '@mui/material';
 import CaseColumn from '../CaseColumn';
 import NewCaseModal from '../NewCaseModal';
